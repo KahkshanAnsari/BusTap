@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightpink_background"
+    android:orientation="vertical"
+    tools:context=".ExtraActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey there!"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_margin="25sp"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:layout_marginRight="35dp"
+            android:text="Welcome to BusTap, your ride's on track. Find your bus, follow the map, We've got you covered-just sit back!"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp" />
+
+        <ImageView
+        android:layout_width="400dp"
+        android:layout_height="242dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-7dp"
+        android:src="@drawable/white_bus"/>
+
+        <TextView
+            android:layout_width="271dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20sp"
+            android:text="Smart Tracking For Smarter Travel - Let's Roll"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLoginButton"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="55sp"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignUpButton"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-50sp"
+            android:background="@drawable/button"
+            android:text="SignUP"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
